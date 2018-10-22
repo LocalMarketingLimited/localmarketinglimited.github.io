@@ -5841,6 +5841,9 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     width: 100%;
     font-size: 18px;
   }
+  .section-description.founder-words {
+    width: 100%;
+  }
   .video-lightbox-block {
     height: 260px;
   }
@@ -6105,6 +6108,7 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
     height: 60px;
   }
   .logo-column {
+    display: block;
     padding-right: 0px;
     padding-bottom: 3px;
     padding-left: 0px;
@@ -6893,6 +6897,16 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   }
   .lightbox-close-icon {
     height: 20px;
+  }
+  .headshot {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .column {
+    position: static;
+    text-align: center;
   }
 }
 
@@ -7876,6 +7890,9 @@ html.w-mod-js *[data-ix="hide-lightbox"] {
   }
   .sign-up-logos-wrapper {
     padding-bottom: 20px;
+  }
+  .logo-text {
+    font-size: 20px;
   }
 }
 
